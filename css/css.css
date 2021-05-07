@@ -3,11 +3,13 @@
     padding: 0;
     color: white;
     text-align: center;
+    font-family: 'Comfortaa', cursive;
 }
+
 header{
     width: 100%;
-    height: 45px;
-    padding: 5px 35px 0px 35px;
+    height: 55px;
+    padding: 5px 50px 0px 50px;
     box-sizing: border-box;
     background-color:#E8E8E8;
     
@@ -15,76 +17,103 @@ header{
     flex-direction: row;
 }
 .CajaPrincipal{
-    background-color: white;
-    width: 35px;
-    height: 35px;
-    border: 1px #4A4A4A solid;
+    width: 40px;
+    height: 40px;
     box-sizing: border-box;
+    margin-left: 15px;
+    background-size: cover;
     margin: auto;
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 15px;
+    padding-bottom: 5px;
     box-sizing: border-box;
 }
 .CajaSecundaria{
     width: 1920px;
-    margin: 5px 15px 5px 15px;
+    margin: 15px 15px 5px 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     
 }
-.botones_menu{
-    
-    color: black;
+.boton_1, .boton_2, .boton_3, .boton_4, .boton_5{
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+	box-sizing: border-box;
     text-decoration: none;
-    padding-left: 20px;   
+    box-sizing: border-box;
+    padding: 8px;
+    color: white;
+	font-size: 14px;
+    font-family: 'Comfortaa', cursive;
 }
+/*Colores de los botones*/
+.boton_1{
+	background-color:#F23D3D;
+	padding-left: 19px;
+	padding-right:19px;}
+.boton_2{
+	background-color:#F2A007;
+	padding-left: 20px;
+	padding-right:20px;
+}
+.boton_3{
+	background-color:#37A652;
+	padding-left: 20px;
+	padding-right:20px;
+}
+.boton_4{
+	background-color:#418EF2;
+	padding-left: 10px;
+	padding-right:10px;
+}
+.boton_5{
+	background-color:gray;
+    padding-left: 10px;
+	padding-right:10px;}
+
 .RectangulosMorados{
-    
     list-style: none;
     width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
-}
-li{
-    
-    background-color: #9B7B99;
-    width: 80px;
-    height: 25px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    border: 1px #4A4A4A solid; 
+    justify-content: space-around;
+	margin-right: 50px;
 }
 .ConColor{
     width:auto;
-    height:280px;
+    height:550px;
     margin: auto;
-    background-color:#DFDFDF;
+    background-image: url(../Img/fondo/sigmund-6jaBQAURBgI-unsplash.png);
+    background-size: cover;
+    box-sizing: border-box;
     padding-top: 95px;
       
 }
 .CuadroSmall, .CuadroLarge{
     width: 350px;
     height: 45px;
-    border: 1px #4A4A4A solid;
-    background-color:#9B7B99;
-    margin: auto;
-   
+    margin: auto;   
+}
+.CuadroSmall{
+    font-size: 50px;
     
 }
 .CuadroLarge{
-    margin-top: 25px;
+    margin-top: 15px;
     width: 600px;
+    font-size: 35px;
+    
 }
 .CuadroOscuro{
     
     padding: 15px;
-    width: 150px;
-    height: 25px;
-    border: 1px #4A4A4A solid;
+    width: 95px;
+    height: 20px;
     margin: auto;
+    text-align: center;
     
     background-color:#4A4A4A;
     border-radius: 40px;
@@ -92,7 +121,7 @@ li{
   
 }
 a{
-    color: #4A4A4A;
+    
     text-decoration: none;
 }
 .SinColor{
@@ -102,14 +131,18 @@ a{
     display: flex;
     flex-direction: row;
     margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 27px;
       
 }
-.Marco{
-    width: 200px;
+.Marco-1, .Marco-2, .Marco-3{
+    
+	width: 200px;
     height: 200px;
     border: 1px #4A4A4A solid;
     margin: auto;
     
     
 }
+.Marco-1{background-image:url(../Img/Cuadros/Cuadro1.png);}
+.Marco-2{background-image:url(../Img/Cuadros/Cuadro2.png);}
+.Marco-3{background-image:url(../Img/Cuadros/Cuadro3.png);}
